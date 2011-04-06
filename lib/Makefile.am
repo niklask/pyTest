@@ -3,16 +3,16 @@
 # Author: Niklas Karlsson <nkarlsson@physics.umn.edu>
 #
 
-pytestdir = $(includedir)/pytest
+testdir = $(includedir)/test
 
-pytest_HEADERS = TObject.h
+test_HEADERS = TObject.h
 
-pytest_SOURCE = TObject.cpp
+test_SOURCE = TObject.cpp
 
 LIB_VERSION = 1:0:0
 
-library_includedir = $(includedir)/pytest
+library_includedir = $(includedir)/test
 
-lib_LTLIBRARIES = libpytest.la
-libpytest_la_SOURCES = $(pytest_HEADERS) $(pytest_SOURCE)
-libpytest_la_LDFLAGS = -version-info $(LIB_VERSION)
+lib_LTLIBRARIES = libtest.la
+libtest_la_SOURCES = $(test_HEADERS) $(test_SOURCE)
+libtest_la_LDFLAGS = -version-info $(LIB_VERSION)

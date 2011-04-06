@@ -4,7 +4,7 @@ dnl Author: Niklas Karlsson <nkarlsson@physics.umn.edu>
 dnl
 
 AC_INIT([pyTest], [0.1.0])
-AC_CONFIG_SRCDIR([python/TObject.h])
+AC_CONFIG_SRCDIR([lib/TObject.h])
 AM_CONFIG_HEADER(config.h)
 AC_CONFIG_AUX_DIR(config)
 AC_CONFIG_MACRO_DIR([m4])
