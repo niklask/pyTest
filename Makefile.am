@@ -5,7 +5,7 @@
 
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = python
+SUBDIRS = lib python
 
 # extra clean target for Sun CC compiler and generated distribution tarball
 clean-local:

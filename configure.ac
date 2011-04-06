@@ -57,6 +57,7 @@ dnl
 dnl Files to be generated
 dnl
 AC_OUTPUT(Makefile \
+          lib/Makefile \
           python/Makefile
 )
 
